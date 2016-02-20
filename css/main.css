@@ -1,0 +1,68 @@
+
+#quiz {
+	text-align: center;
+	background-color: #333;
+	background-image: url('../media/Cosmos.gif');
+	background-size: cover;
+	background-repeat: repeat;
+	background-position: 0% 0%;
+  	background-attachment: fixed;
+}
+.correct {
+	position: absolute;
+	right: 80%;
+	bottom: 70%;
+	color:blue;
+}
+
+.incorrect {
+	position: absolute;
+	left: 80%;
+	bottom: 70%;
+	color: red;
+}
+
+#img, #image {
+	border: 1px solid transparent;
+}
+
+.right {
+	color:blue;
+}
+
+.wrong {
+	color:red;
+}
+h1, h3 {
+	color: #ff99ff;
+	letter-spacing: 0.08em;
+}
+
+
+button {
+	position: relative;
+	top: 20px;
+	font-size: 20px;
+	width:150px;
+	color:#FFF;
+	display:inline-block;
+	text-decoration:none;
+	border-radius:5px;
+	border:solid 3px #D94E3B;
+	background:#cb3b27;
+	text-align:center;
+	padding: 20px;
+	transition: all 0.1s;
+    box-shadow:  9px -9px 9px #84261a;
+
+} 
+
+button:active{
+    box-shadow: 2px 2px 2px #84261a;
+    position:relative;
+    top:27px;
+}
+
+button:hover {
+	background-color: #ccc;
+}

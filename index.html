@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" href="css/main.css">
+	<title>Quiz Project</title>
+</head>
+<body id="quiz">
+
+				<div class="audio">
+					<audio autoplay>
+						<source src="media/Cosmos.mp3" type="audio/mpeg">
+					</video>
+				</div>
+		
+					<div class="title">
+							<h1>How Well Do you know the Cosmos?</h1>
+					</div>
+
+			<form id="form">
+								<div class="quizes">
+									<h3 id="q0"></h3>
+									<input id="a0" type="text">
+								</div>
+
+								<div class="quizes">
+									<h3 id="q1"></h3>
+									<input id="a1" type="text">
+								</div>
+
+								<div class="quizes">
+									<h3 id="q2"></h3>
+									<input id="a2" type="text">
+								</div>
+
+								<div class="quizes">
+									<h3 id="q3"></h3>
+									<input id="a3" type="text">
+								</div>
+
+								<div class="quizes">
+									<h3 id="q4"></h3>
+									<input id="a4" type="text">
+								</div>
+
+
+								<div class="comment">
+									<button type="button" onclick="yourAnswer()" class="btn btn-primary">Submit</button>
+								</div>
+			</form>	
+		
+
+				<div class="correct">
+				<h1 class="right">Correct: <span id="right"></span></h1>
+				<img id="image" src="" height="100" width="120">
+				</div>
+				<div class="incorrect">
+				<h1 class="wrong">Incorrect:  <span id="wrong"></span></h1>
+				<img id="img" src="" height="100" width="120">
+				</div>
+
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
